@@ -458,19 +458,19 @@ border-radius: 14px;
 
   
   .header h2{
-    top: -380px;
-    font-size: 35px;
+    top: -420px;
+    font-size: 45px;
   }
   .header img{
-    height: 440px;
+    height: 500px;
   }
   .header img:hover{
-    height: 443px;
+    height: 503px;
   }
   .header h3{
-    top: -380px;
+    top: -420px;
     left: 35px;
-    font-size: 10px;
+    font-size: 14px;
     color: #000;
   }
   .line-1{
@@ -481,13 +481,13 @@ border-radius: 14px;
     background-color: transparent;
   }
   .header h4{
-    top: -414px;
-    left: 187px;
+    top: -457px;
+    left: 227px;
     font-size: 10px;
   }
 .menu{
   left: 20px;
-  top: -800px;
+  top: -880px;
  }
 
 
@@ -500,17 +500,17 @@ border-radius: 14px;
 }
 .about p{
   position: relative;
-  top: -450px;
+  top: -490px;
   left: 30px;
   font-size: 12px;
   line-height: 20px;
-  margin-right: 250px;
+  margin-right: 150px;
 }
 
 .dropbtn1 {
 
   left:100px;
-  top: -420px;
+  top: -460px;
 
   
 }
@@ -523,18 +523,18 @@ border-radius: 14px;
 
 .social1 i{
   
-  top: -565px;
+  top: -625px;
   font-size: 22px;
   left: 330px;
   
 }
 .social2 i{
-  top: -547px;
+  top: -598px;
   left: 330px;
 }
 
 .social3 i{
-  top: -532px;
+  top: -572px;
   left: 330px;
 }
 
