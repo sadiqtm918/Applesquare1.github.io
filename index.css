@@ -1,0 +1,594 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family:sans-serif;
+    scroll-behavior:  smooth;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+
+  .top-bar{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    margin-right: -4500px;
+    margin-left:0 ;
+  }
+.top-bar h1{
+    position: relative;
+    top: 6px;
+    left: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #000;
+    z-index: 2;
+   
+    font-family: 'Nova Slim', cursive; 
+    animation: animmo 1.8s ease;
+}
+
+.header img{
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    margin-left:0 ;
+    height: 600px;
+    transition: 0.8s ease;
+    margin-right: -4500px;
+    background-attachment: fixed;
+
+  
+}
+.header img:hover{
+  height: 615px;
+}
+.header h2{
+    position: relative;
+    top: -450px;
+    left: 30px;
+    margin-right: 1500px;
+    font-size: 80px;
+    margin-left:0 ;
+    color: #141414;
+    font-family: 'Black Ops One', cursive;
+    transition: 0.9s ease;
+    animation: movero 1.9s ease;
+    margin-right: 800px;
+}
+@keyframes movero{
+0%{
+  left: 0;
+  font-size: 0px
+}  
+100%{
+  opacity: 1;
+}
+}
+.header h3{
+  position: relative;
+  top: -445px;
+  left: 95px;
+  margin-left:0 ;
+  overflow: hidden;
+  font-size: 20px;
+  margin-right: 0px;
+  font-family: 'Nova Slim', cursive;
+  color: rgba(255, 255, 255, 0.897);
+  z-index: 2;
+  white-space: nowrap;
+  animation: modo 5.4s ease infinite;
+}
+@keyframes modo{
+  0%{
+    
+    width: 0ch;
+  }
+100%{
+    width:30ch;
+  }
+}
+
+.header h4{
+  position: relative;
+  top: -518px;
+  left: 397px;
+  overflow: hidden;
+  font-size: 17px;
+  font-family: 'Nova Slim', cursive;
+  color: #000;
+  margin-left:0 ;
+  margin-right: 0px;
+  white-space: nowrap;
+  animation: moJo 4.4s ease infinite;
+}
+@keyframes moJo{
+  0%{
+    width: 0ch;
+  }
+100%{
+    width:17ch;
+  }
+}
+
+
+  
+.mouse{
+  content: '';
+  position: relative;
+  top: -345px;
+  left: 620px;
+  width:25px;
+  height: 50px;
+  margin-right: 800px;
+  background: transparent;
+  border-radius: 150px;
+  margin-left:0 ;
+  animation: animmo 1.8s ease;
+  border: 2px solid rgb(0, 0, 0);
+
+}
+.mouse::before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 800px;
+  transform: translateX(-50%);
+  border-radius: 80px;
+  background: rgb(0, 0, 0);
+  animation: moue 2s infinite;
+}
+@keyframes moue{
+  from{
+    opacity: 1;
+    top: 10px;
+  }
+  to{
+    opacity: 0;
+    top:40px ;
+  }
+}
+
+.line-1{
+  content: '';
+  position: relative;
+  top: -550px;
+  left: 30px;
+  width: 510px;
+  height: 42px;
+  border-radius: 0px;
+  background-color: #141414;
+  animation: liner 4.9s ease;
+}
+@keyframes liner{
+  0%{
+    opacity: 0.3;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.social1 i{
+position: relative;
+top: -750px;
+font-size: 22px;
+left: 1250px;
+z-index: 2;
+color: #141414;
+animation: animmo 3.8s ease;
+}
+.social1 i:hover{
+  color: #f33a3a;
+}
+.social2 i{
+  position: relative;
+  top: -685px;
+  font-size: 22px;
+  left: 1250px;
+  color: #141414;
+  animation: animmo 3.8s ease;
+}
+.social2 i:hover{
+  color: #f33a3a;
+}
+.social3 i{
+  position: relative;
+  top: -610px;
+  font-size: 22px;
+  left: 1250px;
+  color: #141414;
+  animation: animmo 3.8s ease;
+}
+.social3 i:hover{
+  color: #f33a3a;
+}
+
+
+
+
+.about h2{
+  position: relative;
+  left: 850px;
+  top: -840px;
+  font-size:30px;
+  font-family: 'Nova Slim', cursive;
+  color: #000;
+  animation: animmo 3.8s ease;
+}
+.about p{
+  position: relative;
+  top: -800px;
+  left:660px;
+  text-align: justify;
+  text-indent: 45px;
+  font-family: 'Nova Slim', cursive;
+  margin-right: 850px;
+  animation: animmo 3.8s ease;
+}
+
+.dropbtn1 {
+  position:relative;
+
+  left:850px;
+  top: -780px;
+  background-color: #f33a3a;
+  color: white;
+  padding: 10px;
+  font-size: 11px;
+  width: 110px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  font-family: 'Nova Slim', cursive;
+  z-index: 3;
+  opacity: 1;
+  animation: animmo 3.8s ease;
+}
+.dropbtn1:hover {
+  
+  opacity: 1;
+  transition: 0.9s ease;
+}
+
+
+
+
+.overly {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-image: url("../file/nikita-kachanovsky-445394-unsplash-1024x701.jpg");
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  object-fit: cover;
+  margin-right: -1500px;
+  transition: 0.5s;
+}
+.menu{
+ position: relative;
+ left: 20px;
+ top: -1120px;
+ z-index: 2;
+ color: #000;
+}
+.menu:hover{
+ color: #f33a3a;
+  
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overly a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Nova Slim', cursive;
+}
+
+.overly a:hover, .overly a:focus {
+  color: #f1f1f1;
+  font-size: 50px;
+  text-shadow: 10px 20px 5px #000;
+}
+
+.overly .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.texter h2{
+  position: relative;
+  top: -580px;
+  left:-620px;
+  font-size: 20px;
+  display: block;
+  transform: rotate(-90deg);
+  transition: 0.3s;
+  opacity: 0.1;
+  color: #fff;
+  font-weight: bolder;
+  font-family: 'Nova Slim', cursive;
+}
+
+
+.header-mid h1{
+  position: relative;
+    top: -540px;
+    left: 295px;
+    z-index: 2;
+    font-family: 'Nova Slim', cursive;
+    font-size: 27px;
+    color: #000;
+    animation:tesla 1.2s ease ;
+}
+@keyframes tesla{
+  0%{
+    left: 20px;
+    opacity: 0;
+  }
+  100%{
+
+    opacity: 1;
+  }
+}
+
+.header-mid p{
+  position: relative;
+    top: -1009px;
+    left: 295px;
+    justify-content: center;
+    margin-right: 430px;
+    z-index: 2;
+    text-indent: 80px;
+    font-family: 'Nova Slim', cursive;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    color: #000;
+    animation:tesla 1.2s ease ;
+}
+.header-mid h6{
+  position: relative;
+    top: -1009px;
+    left: 295px;
+    justify-content: center;
+    margin-right: 430px;
+    z-index: 2;
+    text-align: justify;
+    text-indent: 80px;
+    font-family: 'Nova Slim', cursive;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: lighter;
+    color: #000;
+    animation:tesla 1.2s ease ;
+}
+.header-mid img{
+  position: relative;
+  top: -590px;
+  left: 20px;
+  height: 480px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: -1500px;
+  animation:tesla 1.2s ease ;
+}
+.dropbtn2 {
+  position:relative;
+
+  left:650px;
+  top: -990px;
+  background-color: #f33a3a;
+  color: white;
+  padding: 18px;
+  font-size: 17px;
+  width: 170px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-family: 'Nova Slim', cursive;
+  z-index: 4;
+  opacity: 1;
+  animation: animmo 3.8s ease;
+}
+.dropbtn2:hover {
+  
+  opacity: 1;
+  transition: 0.9s ease;
+}
+
+
+
+
+::-webkit-scrollbar{
+  background-color:rgba(12, 2, 2, 0.959);
+  width: 6px;
+}
+::-webkit-scrollbar-track{
+box-shadow: inset 0 0 10px rgba(228, 226, 226, 0.26);
+border-radius: 1px;
+}
+::-webkit-scrollbar-thumb{
+background: linear-gradient(125deg,rgb(240, 237, 237),rgb(245, 237, 239) );
+border-radius: 14px;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+
+
+@media (max-width: 700px) {
+  
+  .top-bar h1{
+  
+    font-size: 10px;
+  }
+
+  
+  .header h2{
+    top: -380px;
+    font-size: 35px;
+  }
+  .header img{
+    height: 440px;
+  }
+  .header img:hover{
+    height: 443px;
+  }
+  .header h3{
+    top: -380px;
+    left: 35px;
+    font-size: 10px;
+    color: #000;
+  }
+  .line-1{
+    top: -515px;
+    left: 0px;
+    height: 30px;
+    width: 0px;
+    background-color: transparent;
+  }
+  .header h4{
+    top: -414px;
+    left: 187px;
+    font-size: 10px;
+  }
+.menu{
+  left: 20px;
+  top: -800px;
+ }
+
+
+ .about h2{
+  
+  left: 0px;
+  top: 0px;
+  font-size:0px;
+  
+}
+.about p{
+  position: relative;
+  top: -450px;
+  left: 30px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 250px;
+}
+
+.dropbtn1 {
+
+  left:100px;
+  top: -420px;
+
+  
+}
+.mouse{
+  top: -285px;
+  left: 326px;
+  width:20px;
+  height: 40px;
+}
+
+.social1 i{
+  
+  top: -565px;
+  font-size: 22px;
+  left: 330px;
+  
+}
+.social2 i{
+  top: -547px;
+  left: 330px;
+}
+
+.social3 i{
+  top: -532px;
+  left: 330px;
+}
+
+
+  .header-mid h1{
+ 
+      top: -410px;
+      left: 220px;
+  }
+  .header-mid p{
+    position: relative;
+      top: -770px;
+      left: 228px;
+      margin-right: 380px;
+     
+      text-indent: 10px;
+     text-align: justify;
+      font-size: 10px;
+      line-height: 20px;
+  }
+  .header-mid h6{
+    position: relative;
+      top: -760px;
+      left: 25px;
+      justify-content: center;
+      margin-right: 170px;
+      z-index: 2;
+      text-indent: 0px;
+   text-align: justify;
+      font-size: 10px;
+      line-height: 22px;
+      animation:tesla 1.2s ease ;
+     
+  }
+  .header-mid img{
+
+    top: -440px;
+    left: 10px;
+    height: 360px;
+    width: 200px;
+  }
+  .dropbtn2{
+    
+  left:120px;
+  top: -755px;
+ 
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+  width: 150px;
+  border: none;
+  z-index: 3;
+  cursor: pointer;
+  border-radius: 25px;
+  }
+
+
