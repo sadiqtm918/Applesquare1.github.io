@@ -63,7 +63,7 @@
 @keyframes movero{
 0%{
   left: 0;
-  font-size: 0px
+  font-size: 120px
 }  
 100%{
   opacity: 1;
@@ -451,6 +451,7 @@ border-radius: 14px;
 
 @media (max-width: 700px) {
   
+  
   .top-bar h1{
   
     font-size: 10px;
@@ -459,6 +460,7 @@ border-radius: 14px;
   
   .header h2{
     top: -420px;
+    left: 16px;
     font-size: 45px;
   }
   .header img{
@@ -469,7 +471,7 @@ border-radius: 14px;
   }
   .header h3{
     top: -420px;
-    left: 35px;
+    left: 22px;
     font-size: 14px;
     color: #000;
   }
@@ -481,13 +483,13 @@ border-radius: 14px;
     background-color: transparent;
   }
   .header h4{
-    top: -457px;
-    left: 227px;
+    top: -460px;
+    left: 213px;
     font-size: 10px;
   }
 .menu{
   left: 20px;
-  top: -1000px;
+  top: -910px;
  }
 
 
@@ -501,11 +503,10 @@ border-radius: 14px;
 .about p{
   position: relative;
   top: -490px;
-  left: 30px;
+  left: 20px;
   font-size: 12px;
   line-height: 20px;
-    margin-right:0;
-  
+  margin-right: 220px;
 }
 
 .dropbtn1 {
@@ -516,8 +517,8 @@ border-radius: 14px;
   
 }
 .mouse{
-  top: -285px;
-  left: 326px;
+  top: -335px;
+  left: 316px;
   width:20px;
   height: 40px;
 }
@@ -526,17 +527,17 @@ border-radius: 14px;
   
   top: -625px;
   font-size: 22px;
-  left: 330px;
+  left: 310px;
   
 }
 .social2 i{
   top: -598px;
-  left: 330px;
+  left: 310px;
 }
 
 .social3 i{
   top: -572px;
-  left: 330px;
+  left: 310px;
 }
 
 
@@ -544,13 +545,16 @@ border-radius: 14px;
  
       top: -410px;
       left: 220px;
+      transition: 0.8s ease;
+  }
+  .header-mid h1:hover{
+    color: #f33a3a;
   }
   .header-mid p{
     position: relative;
       top: -770px;
       left: 228px;
-      margin-right: 380px;
-     
+      margin-right: 350px;
       text-indent: 10px;
      text-align: justify;
       font-size: 10px;
@@ -572,7 +576,7 @@ border-radius: 14px;
   }
   .header-mid img{
 
-    top: -440px;
+    top: -470px;
     left: 10px;
     height: 360px;
     width: 200px;
@@ -591,5 +595,4 @@ border-radius: 14px;
   cursor: pointer;
   border-radius: 25px;
   }
-
 
