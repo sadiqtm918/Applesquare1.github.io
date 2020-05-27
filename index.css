@@ -152,7 +152,7 @@
   }
   to{
     opacity: 0;
-    top:40px ;
+    top:38px ;
   }
 }
 
@@ -506,7 +506,7 @@ border-radius: 14px;
   left: 20px;
   font-size: 12px;
   line-height: 20px;
-  margin-right: 110px;
+  margin-right: 80px;
 }
 
 .dropbtn1 {
@@ -518,7 +518,7 @@ border-radius: 14px;
 }
 .mouse{
   top: -335px;
-  left: 314px;
+  left: 310px;
   width:20px;
   height: 40px;
 }
