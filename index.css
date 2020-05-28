@@ -453,7 +453,8 @@ border-radius: 14px;
   
   
   .top-bar h1{
-    left:30px;
+    left:80px;
+      top:16px;
     font-size: 10px;
   }
 
@@ -517,7 +518,7 @@ border-radius: 14px;
   
 }
 .mouse{
-  top: -315px;
+  top: -335px;
   left: 310px;
   width:20px;
   height: 40px;
