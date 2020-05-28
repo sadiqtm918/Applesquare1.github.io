@@ -419,6 +419,229 @@ animation: animmo 3.8s ease;
 }
 
 
+.blacks{
+  position: relative;
+  top: -878px;
+  left: 0;
+  width: 100%;
+  margin-left:0 ;
+  background-color: #141414;
+  background-size: cover;
+  height: 700px;
+}
+.core-mid img{
+ 
+}
+.blacks h2{
+  position: relative;
+  top: 70px;
+  left: 48px;
+  overflow: hidden;
+  font-size: 28px;
+  color: #fff;
+  white-space: nowrap;
+  margin-right: 1700px;
+  font-family: 'Nova Slim', cursive;
+  animation: moke 5.4s ease infinite;
+}
+@keyframes moke{
+  0%{
+    width: 0ch;
+  }
+100%{
+    
+    width:13ch;
+    color: rgb(172, 16, 47);
+  }
+}
+
+.blacks h3{
+  position: relative;
+  top: -10px;
+  left: 90px;
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Nova Slim', cursive;
+}
+
+
+
+  .card1 {
+    box-shadow: 0 5px 1px 0 #f33a3a;
+    width: 300px;
+    background-color:#141414;
+    margin-top: 80px;
+    margin-left: 100px;
+    font-family: 'Nova Slim', cursive;
+    height: 450px;
+    text-align: center;
+    transition: 0.8s ease;
+  }
+  .card1:hover{
+    box-shadow: 0 2px 8px 0 #f33a3a;
+  }
+  .card1 img{
+    width: 170px;
+    height: 160px;
+    margin-top: 0px;
+  }
+  .price1 p {
+    margin-top: 90px;
+    color:rgb(136, 66, 66);
+    font-size: 22px;
+    font-family: 'Nova Slim', cursive;
+  }
+  .card1 p{
+    top: 500px;
+    margin-top: 23px;
+    color: #f1f1f1;
+    font-family: 'Nova Slim', cursive;
+  }
+  .card1 h1{
+    color: #f1f1f1;
+    font-family: 'Nova Slim', cursive;
+    margin-top: 70px;
+    font-size: 24px;
+  }
+  .card1 button {
+    border: none;
+    outline: 0;
+    top: 300px;
+    padding: 12px;
+    color: white;
+    background-color: #f33a3a;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Nova Slim', cursive;
+    opacity: 1;
+    transition: 0.9s ease;
+  }
+  .card1 button:hover {
+    color: #000;
+    opacity: 0.9;
+  }
+
+  
+  .card2 {
+    box-shadow: 0 2px 1px 0 #f33a3a;
+    width: 300px;
+    margin-top: -450px;
+    margin-left: 500px;
+    font-family: 'Nova Slim', cursive;
+    height: 450px;
+    text-align: center;
+    transition: 0.8s ease;
+   
+  }
+  .card2:hover{
+    box-shadow: 0 2px 6px 0 #f33a3a;
+  }
+  .card2 img{
+    width: 100px;
+    margin-top: 20px;
+    height: 140px;
+  }
+  .price2 {
+    margin-top: -30px;
+    color:rgb(136, 66, 66);
+    font-size: 22px;
+
+    font-family: 'Nova Slim', cursive;
+  }
+  .card2 p{
+    margin-top: 20px;
+    color: #f1f1f1;
+    font-family: 'Nova Slim', cursive;
+  }
+  .card2 h1{
+    font-family: 'Nova Slim', cursive;
+    margin-top: 70px;
+    color: #f1f1f1;
+    font-size: 24px;
+  }
+  .card2 button {
+    border: none;
+    outline: 0;
+    top: 300px;
+    padding: 12px;
+    color: white;
+    background-color: #f33a3a;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Nova Slim', cursive;
+    opacity: 1;
+    transition: 0.9s ease;
+  }
+  
+  .card2 button:hover {
+    color: #000;
+    opacity: 0.9;
+    
+  }
+
+  
+  .card3 {
+    box-shadow: 0 2px 2px 0 #f33a3a;
+    width: 300px;
+    margin-top: -450px;
+    margin-left:900px ;
+    font-family: 'Nova Slim', cursive;
+    height: 453px;
+    text-align: center;
+    transition: 0.8s ease;
+   
+  }
+  .card3:hover{
+    box-shadow: 0 2px 6px 0 #f33a3a;
+  }
+  .price3 {
+    margin-top: 90px;
+    color:rgb(136, 66, 66);
+    font-size: 22px;
+    font-family: 'Nova Slim', cursive;
+  }
+  .card3 img{
+    width: 150px;
+    margin-top: 1px;
+    height: 160px;
+  }
+  .card3 p{
+    margin-top: 23px;
+    color: #f1f1f1;
+    font-family: 'Nova Slim', cursive;
+  }
+  .card3 h1{
+    font-family: 'Nova Slim', cursive;
+    margin-top: 70px;;
+    color: #f1f1f1;
+    font-size: 24px;
+  }
+  .card3 button {
+    border: none;
+    outline: 0;
+    top: 300px;
+    padding: 12px;
+    color: white;
+    background-color: #f33a3a;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Nova Slim', cursive;
+    opacity: 1;
+    transition: 0.9s ease;
+  }
+  
+  .card3 button:hover {
+    color: #000;
+    opacity: 0.9;
+    
+  }
+
 
 
 ::-webkit-scrollbar{
@@ -490,7 +713,7 @@ border-radius: 14px;
   }
 .menu{
   left: 20px;
-  top: -940px;
+  top: -947px;
  }
 
 
@@ -541,7 +764,6 @@ border-radius: 14px;
   left: 310px;
 }
 
-
   .header-mid h1{
  
       top: -410px;
@@ -551,11 +773,21 @@ border-radius: 14px;
   .header-mid h1:hover{
     color: #f33a3a;
   }
-  .header-mid p{
+  .abt2{
     position: relative;
-      top: -770px;
-      left: 228px;
-      margin-right: 350px;
+    content: '';
+    top: -750px;
+    left: 225px;
+    width: 100px;
+    height: 300px;
+    z-index: 2;
+    background-color: transparent;
+  }
+  .abt2 p{
+    position: relative;
+      top: 10px;
+      left: 2px;
+      margin-right: 20px;
       text-indent: 10px;
      text-align: justify;
       font-size: 10px;
@@ -564,14 +796,16 @@ border-radius: 14px;
   .header-mid h6{
     position: relative;
       top: -760px;
-      left: 25px;
+      left: 15px;
       justify-content: center;
-      margin-right: 170px;
+      margin-right: 200px;
       z-index: 2;
-      text-indent: 0px;
-   text-align: justify;
+      text-indent: 12px;
+      text-align: justify;
       font-size: 10px;
-      line-height: 22px;
+      font-weight: lighter;
+      line-height: 20px;
+      font-family: 'Nova Slim', cursive;
       animation:tesla 1.2s ease ;
      
   }
@@ -596,4 +830,3 @@ border-radius: 14px;
   cursor: pointer;
   border-radius: 25px;
   }
-
