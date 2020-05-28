@@ -453,8 +453,8 @@ border-radius: 14px;
   
   
   .top-bar h1{
-    left:80px;
-      top:16px;
+    left: 45px;
+  top: 26px;
     font-size: 10px;
   }
 
@@ -465,7 +465,7 @@ border-radius: 14px;
     font-size: 45px;
   }
   .header img{
-    height: 558px;
+    height: 562px;
   }
   .header img:hover{
     height: 562px;
