@@ -453,7 +453,7 @@ border-radius: 14px;
   
   
   .top-bar h1{
-  
+    left:30px;
     font-size: 10px;
   }
 
@@ -489,7 +489,7 @@ border-radius: 14px;
   }
 .menu{
   left: 20px;
-  top: -90px;
+  top: -970px;
  }
 
 
