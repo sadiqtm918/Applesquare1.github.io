@@ -344,7 +344,7 @@ animation: animmo 3.8s ease;
 }
 @keyframes tesla{
   0%{
-    left: 20px;
+    left: 0px;
     opacity: 0;
   }
   100%{
