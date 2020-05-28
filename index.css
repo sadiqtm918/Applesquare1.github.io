@@ -281,11 +281,19 @@ animation: animmo 3.8s ease;
  top: -1120px;
  z-index: 2;
  color: #000;
+    animation:fag 0.8s ease infinte;
 }
-.menu:hover{
- color: #f33a3a;
-  
+@keyframes fag{
+ 0%{
+    
+    width: 0ch;
+  }
+100%{
+    width:15ch;
+    color: #f33a3a;
+  }
 }
+
 .overlay-content {
   position: relative;
   top: 25%;
