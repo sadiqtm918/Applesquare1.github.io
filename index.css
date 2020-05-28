@@ -796,7 +796,7 @@ border-radius: 14px;
   .abt2 p{
     position: relative;
       top: -20px;
-      left: 2px;
+      left: 4px;
       margin-right: 3px;
       text-indent: 10px;
      text-align: justify;
@@ -828,7 +828,7 @@ border-radius: 14px;
   }
   .dropbtn2{
     
-  left:120px;
+  left:110px;
   top: -755px;
  
   color: white;
