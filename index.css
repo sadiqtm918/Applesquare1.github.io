@@ -27,9 +27,18 @@
     z-index: 2;
    
     font-family: 'Nova Slim', cursive; 
-    animation: animmo 1.8s ease;
+     animation:fag 0.8s ease infinte;
 }
-
+@keyframes fag{
+ 0%{
+    
+    width: 0ch;
+  }
+100%{
+    width:15ch;
+    color: #f33a3a;
+  }
+}
 .header img{
     position: relative;
     top: -25px;
@@ -281,18 +290,10 @@ animation: animmo 3.8s ease;
  top: -1120px;
  z-index: 2;
  color: #000;
-    animation:fag 0.8s ease infinte;
 }
-@keyframes fag{
- 0%{
-    
-    width: 0ch;
-  }
-100%{
-    width:15ch;
-    color: #f33a3a;
-  }
-}
+.menu:hover{
+color:#f33a3a}
+
 
 .overlay-content {
   position: relative;
