@@ -326,6 +326,7 @@ animation: animmo 3.8s ease;
   transition: 0.3s;
   opacity: 0.1;
   color: #fff;
+    z-index:2;
   font-weight: bolder;
   font-family: 'Nova Slim', cursive;
 }
@@ -785,7 +786,7 @@ border-radius: 14px;
   }
   .abt2 p{
     position: relative;
-      top: 10px;
+      top: -30px;
       left: 2px;
       margin-right: 20px;
       text-indent: 10px;
@@ -798,7 +799,7 @@ border-radius: 14px;
       top: -760px;
       left: 15px;
       justify-content: center;
-      margin-right: 200px;
+      margin-right: 130px;
       z-index: 2;
       text-indent: 12px;
       text-align: justify;
