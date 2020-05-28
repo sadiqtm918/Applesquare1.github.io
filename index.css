@@ -678,7 +678,7 @@ border-radius: 14px;
   
   .top-bar h1{
     left: 45px;
-  top: 54px;
+    top: 54px;
     font-size: 10px;
   }
 
@@ -767,7 +767,7 @@ border-radius: 14px;
 
   .header-mid h1{
  
-      top: -410px;
+      top: -417px;
       left: 220px;
       transition: 0.8s ease;
   }
@@ -796,12 +796,12 @@ border-radius: 14px;
   }
   .header-mid h6{
     position: relative;
-      top: -760px;
+      top: -763px;
       left: 15px;
       justify-content: center;
       margin-right: 40px;
       z-index: 2;
-      text-indent: 12px;
+      text-indent: 0px;
       text-align: justify;
       font-size: 10px;
       font-weight: lighter;
