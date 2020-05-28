@@ -19,19 +19,17 @@
   }
 .top-bar h1{
     position: relative;
-    top: 6px;
-    left: 10px;
+   left: 45px;
+    top: 54px;
     font-size: 12px;
     letter-spacing: 2px;
     color: #000;
     z-index: 2;
-   
     font-family: 'Nova Slim', cursive; 
-     animation:fag 0.8s ease infinte;
+     animation:tag 1.8s ease infinte;
 }
-@keyframes fag{
+@keyframes tag{
  0%{
-    
     width: 0ch;
   }
 100%{
@@ -379,13 +377,13 @@ color:#f33a3a}
 }
 .header-mid h6{
   position: relative;
-    top: -1009px;
+    top: -1018px;
     left: 295px;
     justify-content: center;
     margin-right: 430px;
     z-index: 2;
     text-align: justify;
-    text-indent: 80px;
+    text-indent: 290px;
     font-family: 'Nova Slim', cursive;
     font-size: 18px;
     line-height: 27px;
