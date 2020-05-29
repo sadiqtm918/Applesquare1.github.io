@@ -475,7 +475,7 @@ color:#f33a3a}
   .card1 {
     box-shadow: 0 5px 1px 0 #f33a3a;
     width: 300px;
-    background-color:#141414;
+    background-color:#0a080831;
     margin-top: 80px;
     margin-left: 100px;
     font-family: 'Nova Slim', cursive;
@@ -650,6 +650,22 @@ color:#f33a3a}
     color: #000;
     opacity: 0.9;
     
+  }
+
+  .videow{
+    position: relative;
+    left: 0px;
+  top: -1150px;
+  box-shadow: 5px 12px 45px solid #008CBA;
+  }
+  .videow h2{
+    position: relative;
+    left: 450px;
+    top: 50px;
+    color: #ffff;
+    font-size: 18px;
+    font-family: 'Nova Slim', cursive;
+    transition: 0.9s ease;
   }
 
 
@@ -1061,4 +1077,16 @@ border-radius: 14px;
     color: #000;
     opacity: 0.9;
     
+  }
+  top: -720px;
+  }
+  .videow h2{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    color: #ffff;
+    opacity: 0.3;
+    font-size: 12px;
+    font-family: 'Nova Slim', cursive;
+    transition: 0.9s ease;
   }
