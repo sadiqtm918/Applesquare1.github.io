@@ -385,7 +385,7 @@ color:#f33a3a}
     margin-right: 430px;
     z-index: 2;
     text-align: justify;
-    text-indent: 590px;
+    text-indent: 620px;
     font-family: 'Nova Slim', cursive;
     font-size: 18px;
     line-height: 27px;
@@ -431,7 +431,7 @@ color:#f33a3a}
 
 .blacks{
   position: relative;
-  top: -828px;
+  top: -878px;
   left: 0;
   width: 100%;
   margin-left:0 ;
@@ -444,7 +444,7 @@ color:#f33a3a}
   top: 70px;
   left: 548px;
   overflow: hidden;
-  font-size: 28px;
+  font-size: 20px;
   color: #fff;
   white-space: nowrap;
   margin-right: 1700px;
