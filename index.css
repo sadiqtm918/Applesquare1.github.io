@@ -1078,7 +1078,8 @@ border-radius: 14px;
     opacity: 0.9;
     
   }
-  top: -720px;
+    .videow{
+    top: -720px;
   }
   .videow h2{
     position: relative;
