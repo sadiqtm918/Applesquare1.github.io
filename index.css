@@ -431,7 +431,7 @@ color:#f33a3a}
 
 .blacks{
   position: relative;
-  top: -678px;
+  top: -698px;
   left: 0;
   width: 100%;
   margin-left:0 ;
@@ -838,17 +838,18 @@ border-radius: 14px;
   border-radius: 25px;
   }
 
-    
+ 
+
 .blacks{
-  top: -440px;
-  height: 1640px;
+  top: -695px;
+  height: 1680px;
 }
 .texter h2{
   top: -220px;
   left: -220PX;
 }
 
-    
+
 .blacks h2{
   position: relative;
   top: 70px;
@@ -943,7 +944,7 @@ border-radius: 14px;
   .card2 {
     box-shadow: 0 2px 1px 0 #f33a3a;
     width: 300px;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: 30px;
     font-family: 'Nova Slim', cursive;
     height: 450px;
@@ -969,6 +970,7 @@ border-radius: 14px;
   .card2 p{
     margin-top: 20px;
     color: #f1f1f1;
+
     font-family: 'Nova Slim', cursive;
   }
   .card2 h1{
@@ -1003,7 +1005,7 @@ border-radius: 14px;
   .card3 {
     box-shadow: 0 2px 2px 0 #f33a3a;
     width: 300px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left:30px ;
     font-family: 'Nova Slim', cursive;
     height: 453px;
