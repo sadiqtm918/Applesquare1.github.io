@@ -335,7 +335,6 @@ color:#f33a3a}
   transition: 0.3s;
   opacity: 0.1;
   color: #fff;
-    z-index:2;
   font-weight: bolder;
   font-family: 'Nova Slim', cursive;
 }
@@ -845,7 +844,7 @@ border-radius: 14px;
  
 
 .blacks{
-  top: -703px;
+  top: -716px;
   height: 1680px;
 }
 .texter h2{
