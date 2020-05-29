@@ -668,7 +668,13 @@ color:#f33a3a}
     font-family: 'Nova Slim', cursive;
     transition: 0.9s ease;
   }
-
+.contact h2{
+  position: relative;
+  top: -600px;
+  left: 40px;
+  font-size: 94px;
+  color: #000;
+}
 
 
 ::-webkit-scrollbar{
