@@ -385,7 +385,7 @@ color:#f33a3a}
     margin-right: 430px;
     z-index: 2;
     text-align: justify;
-    text-indent: 570px;
+    text-indent: 590px;
     font-family: 'Nova Slim', cursive;
     font-size: 18px;
     line-height: 27px;
@@ -431,7 +431,7 @@ color:#f33a3a}
 
 .blacks{
   position: relative;
-  top: -798px;
+  top: -828px;
   left: 0;
   width: 100%;
   margin-left:0 ;
@@ -845,7 +845,7 @@ border-radius: 14px;
  
 
 .blacks{
-  top: -695px;
+  top: -703px;
   height: 1680px;
 }
 .texter h2{
@@ -859,7 +859,7 @@ border-radius: 14px;
   top: 70px;
   left: 110px;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 17px;
   color: #fff;
   white-space: nowrap;
   margin-right: 1700px;
