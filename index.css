@@ -661,8 +661,9 @@ color:#f33a3a}
   .videow h2{
     position: relative;
     left: 450px;
-    top: 50px;
+    top: 45px;
     color: #ffff;
+      opacity:0.3;
     font-size: 18px;
     font-family: 'Nova Slim', cursive;
     transition: 0.9s ease;
@@ -1084,7 +1085,7 @@ border-radius: 14px;
   .videow h2{
     position: relative;
     left: 50px;
-    top: 30px;
+    top: 27px;
     color: #ffff;
     opacity: 0.3;
     font-size: 12px;
