@@ -54,7 +54,7 @@
   
 }
 .header img:hover{
-  height: 615px;
+  height: 605px;
 }
 .header h2{
     position: relative;
@@ -379,13 +379,13 @@ color:#f33a3a}
 }
 .header-mid h6{
   position: relative;
-    top: -1018px;
+    top: -1038px;
     left: 295px;
     justify-content: center;
     margin-right: 430px;
     z-index: 2;
     text-align: justify;
-    text-indent: 290px;
+    text-indent: 390px;
     font-family: 'Nova Slim', cursive;
     font-size: 18px;
     line-height: 27px;
